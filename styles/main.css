@@ -256,7 +256,7 @@ a {
     width: 12px;
     height: 24px; }
 
-@media (max-width: 420px) {
+@media (max-width: 999px) {
   .intro__button {
     left: calc(50vw - 163px / 2);
     top: 288px; } }
@@ -312,6 +312,7 @@ a {
 
 @media (max-width: 999px) {
   .networks {
+    margin-top: 50px;
     top: 320px;
     margin-left: 0;
     left: calc(50% - 210px);
@@ -1102,8 +1103,11 @@ a {
     .contact__section {
       grid-template-columns: 1fr;
       justify-items: center; }
-      .contact__section .form__row .form {
-        margin-left: 0; }
+      .contact__section .form__row {
+        width: 100vw; }
+        .contact__section .form__row .form__button {
+          margin-top: 50px;
+          margin-left: calc(36% - 113px); }
       .contact__section .contact__row {
         margin: 50px auto; } }
   @media (max-width: 420px) {
